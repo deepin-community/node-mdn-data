@@ -1,5 +1,94 @@
-template-repository (1.0-1) unstable; urgency=medium
+node-mdn-data (2.1.0-1) unstable; urgency=medium
 
-  * Initial release
+  * Team upload
+  * New upstream version 2.1.0
+  * Updated copyright year
+  * Updated standards-version
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Robinson Uchechukwu <estherchidinma202@gmail.com>  Wed, 18 Oct 2023 00:12:35 +0000
+
+node-mdn-data (2.0.30-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 2.0.30
+
+ -- Yadd <yadd@debian.org>  Tue, 01 Nov 2022 15:41:22 +0100
+
+node-mdn-data (2.0.29-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 2.0.29
+
+ -- Yadd <yadd@debian.org>  Mon, 19 Sep 2022 10:51:13 +0200
+
+node-mdn-data (2.0.28-1) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.6.1
+  * New upstream version 2.0.28
+
+ -- Yadd <yadd@debian.org>  Tue, 16 Aug 2022 12:27:53 +0200
+
+node-mdn-data (2.0.27-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 2.0.27
+
+ -- Yadd <yadd@debian.org>  Thu, 03 Mar 2022 20:59:44 +0100
+
+node-mdn-data (2.0.26-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 2.0.26
+
+ -- Yadd <yadd@debian.org>  Mon, 07 Feb 2022 12:33:45 +0100
+
+node-mdn-data (2.0.23-3) unstable; urgency=medium
+
+  * Team upload
+  * Add debian/gbp.conf
+  * Drop dependency to nodejs
+  * Use dh-sequence-nodejs auto install
+  * Fix license (Closes: #1000701)
+
+ -- Yadd <yadd@debian.org>  Sat, 27 Nov 2021 15:31:50 +0100
+
+node-mdn-data (2.0.23-2) unstable; urgency=medium
+
+  * Install css/*.json files (sic).
+  * Install docs.
+
+ -- Julien Puydt <jpuydt@debian.org>  Sat, 27 Nov 2021 14:43:29 +0100
+
+node-mdn-data (2.0.23-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from deprecated 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+  * Apply multi-arch hints.
+    + node-mdn-data: Add Multi-Arch: foreign.
+  * Bump debhelper from old 12 to 13.
+
+  [ Julien Puydt ]
+  * Fix d/watch and bump it to version 4.
+  * Bump standards-version to 4.6.0.
+  * Install files in /usr/share/nodejs and not /usr/lib/nodejs.
+  * New upstream release.
+  * Declare d/rules doesn't require root.
+  * Mark the require autopkgtest as superficial (Closes: #974267).
+  * Don't ship the doc in the module itself.
+  * Add myself as uploader.
+
+ -- Julien Puydt <jpuydt@debian.org>  Sat, 27 Nov 2021 14:37:35 +0100
+
+node-mdn-data (1.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #879588)
+
+ -- Pirate Praveen <praveen@debian.org>  Mon, 23 Oct 2017 13:09:33 +0530
